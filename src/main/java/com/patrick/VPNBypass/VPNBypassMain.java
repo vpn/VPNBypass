@@ -46,7 +46,7 @@ public class VPNBypassMain extends Application{
 
     Stage window;
     /** This is the gateway object. When the application
-     * starts it will store the deafult gateway address.
+     * starts it will store the default gateway address.
      * This is done so that it we do not have to call
      * a function every time we add a new rule.
      */
@@ -104,7 +104,7 @@ public class VPNBypassMain extends Application{
 
 
     /**
-     *  Method that will add the domain to the "whitelist'
+     *  Method that will add the domain to the 'whitelist'
      * @param input - TextField Object
      * @param message - String
      */
@@ -222,7 +222,7 @@ public class VPNBypassMain extends Application{
 
     /**
      * Method that will add a routing rule.
-     * This requires elevated permisson levels on windows by default.
+     * This requires elevated permission levels on windows by default.
      * Within the README I have explained how I have got around this.
      * The method will get the last domain added, iterate through its addresses
      * and add a new rule for each IP.
