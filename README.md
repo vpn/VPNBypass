@@ -10,7 +10,7 @@ This is a Java Application that has been made to create networking rules that al
 
 ### Download
 You can download the compiled and wrapped executable [here](https://cdn.stuf.io/8585TWodb1w61N.exe), or you can clone the repository yourself and build it using maven.
-However, to use the application you will need to wrap the compiled Jar in a Windows executable. This is further explained in the [Wrapping/Security](#wrapping-&-security) section
+However, to use the application you will need to wrap the compiled Jar in a Windows executable. This is further explained in the [Wrapping/Security](#wrapping---security) section
 
 ### Usage
 Simply download or compile and wrap the application yourself and run it. You will be presented with a simple GUI, where you input the domain which you want to add a rule for. Click on 'Whitelist' and the application will resolve the associated addresses and create the appropriate network rules.
